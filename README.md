@@ -8,9 +8,10 @@
 
 基本功能
 1、从服务器获取正则直播的主播的列表信息
-[image](https://github.com/baiqiantao/live_video/raw/master/1.png)
+![image](https://github.com/baiqiantao/live_video/raw/master/1.png)
 
 2、进入直播界面
 ![image](https://github.com/baiqiantao/live_video/raw/master/2.png)
 
 3、可获取的主播信息
+file:///D:/Backup/Documents/My%20Knowledge/temp/7af8cbb2-1184-4a07-b31c-1fb08ac79277_4_files/6af36474-578e-4e08-ab8e-413d3995e829.png
