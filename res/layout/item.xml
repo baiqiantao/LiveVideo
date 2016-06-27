@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbf7ed" >
+
+    <ImageView
+        android:id="@+id/iv_anchor_img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/live_icon_default" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_anchor_img"
+        android:background="@drawable/main_live_head_bg" />
+
+    <TextView
+        android:id="@+id/tv_audience_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_anchor_img"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="4dp"
+        android:drawableLeft="@drawable/living_true"
+        android:drawablePadding="4dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:text="111"
+        android:textColor="#00f"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_anchor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_audience_num"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_audience_num"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:paddingRight="8dp"
+        android:singleLine="true"
+        android:text="这是主播主播主播"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iv_rankingLev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/live_ranking1" />
+
+    <ImageView
+        android:id="@+id/iv_moods"
+        android:layout_width="40dp"
+        android:layout_height="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/live_moods" />
+
+    <ImageView
+        android:id="@+id/iv_coverage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/live_main_item_bg"
+        android:clickable="true"
+        android:focusable="true" />
+
+</RelativeLayout>
